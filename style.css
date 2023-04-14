@@ -1,0 +1,18 @@
+.caja {
+    background-color: red;
+    padding: 10%;
+    border-radius: 25%;
+    border: 10%;
+}
+
+.Alumno {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.profesora{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: black;
+}
