@@ -1,0 +1,13 @@
+.form{
+    border: 2px solid black;
+    height: max-content;
+    width: max-content;
+    box-shadow: 1px 1px 10px black;
+    font-family: 'Merriweather', serif;
+    background-color: #f9b189;
+    color: white;
+}
+
+.input{
+    background: #ffd5a9;
+}
