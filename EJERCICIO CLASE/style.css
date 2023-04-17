@@ -1,18 +1,21 @@
 .caja {
-    background-color: red;
-    padding: 10%;
-    border-radius: 25%;
-    border: 10%;
+
+    border-radius: 15%;
+    box-sizing: height 20px; width:40%;
 }
 
-.Alumno {
+#Alumno {
+    background-color: red;
     font-family: 'Merriweather', serif;
     font-size: 20px;
+    text-align: center;
     color: white;
 }
 
-.profesora{
+#profesora{
+    background-color: red;
     font-family: 'Merriweather', serif;
     font-size: 20px;
+    text-align: center;
     color: black;
 }
