@@ -1,0 +1,57 @@
+.Titulo{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+li{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+#Vader{
+    font-size: 50px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#Luke{
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* #Soldados{
+    border: 2px dashed black
+} */
+
+#Soldados2{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.Imperio{
+    filter: drop-shadow(2px 2px 10px red) 
+    /* ARRIBA ESTA COMO PONER UNA SOMBRA A UN BORDE DE IMAGEN (NO A CAJA) */
+}
+
+.Rebeldes{
+    filter: drop-shadow(2px 2px 10px blue) 
+}
+
+.apoyo{
+    text-align: center;
+}
+
+.Naves{
+    text-transform: uppercase;
+}
+
+.Todo{
+    text-align: center;
+}
+
+body {
+    background-image: url("fondostarwars.jpeg")
+}
