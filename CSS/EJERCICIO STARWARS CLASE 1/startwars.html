@@ -9,15 +9,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
   </head>
-  <body class="Todo">
-    <h1  class="Titulo">Los bandos de STAR WARS</h1>
+  <header>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#malos">Imperio</a></li>
+          <li><a href="#buenos">Rebeldes</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
 
-    <img src="https://elastic-khorana-29f1fb.netlify.app/starwars_logo.png" alt="starwars" width="600px" height="250px" />
+    <body>
+    <img class="logo" src="https://elastic-khorana-29f1fb.netlify.app/starwars_logo.png" alt="starwars" width="600px" height="250px" />
     <br />
 
-    <h3  class="Titulo">(las originales, que eran la posta)</h3>
-
-    <h2  class="Titulo">El imperio</h2>
+    <h2  id="malos">EL IMPERIO</h2>
     <br />
     <ul>
       <li id="Vader">Lider: Darth Vader</li>
@@ -64,9 +71,8 @@
       </ul>
     </ul>
 
-    <hr />
 
-    <h2 class="Titulo">Los rebeldes</h2>
+    <h2 class="Titulo" id="buenos">Los rebeldes</h2>
     <br />
 <ul>
 
@@ -98,7 +104,6 @@
     <li class="apoyo">
       Unidades de apoyo:
 
-      <hr />
 
       <li class="Naves">Tanque</li>
       <img class="Rebeldes"

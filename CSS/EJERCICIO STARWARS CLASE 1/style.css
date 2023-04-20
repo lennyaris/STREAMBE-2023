@@ -9,8 +9,22 @@ li{
     font-size: 20px;
 }
 
-#Vader{
+#malos{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
+    padding-top: 30px;
+}
+
+#buenos{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#Vader {
+    font-size: 30px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -41,17 +55,61 @@ li{
 }
 
 .apoyo{
-    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .Naves{
     text-transform: uppercase;
-}
-
-.Todo{
-    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding: 10px;
 }
 
 body {
-    background-image: url("fondostarwars.jpeg")
+    text-align: center;
+    /* background-image: url("fondostarwars.jpeg") */
+    background: rgb(33,31,80);
+background: linear-gradient(90deg, rgba(33,31,80,1) 0%, rgba(2,2,25,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+header{
+    display: block;
+    align-items: right;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    width: 200px;
+    border-radius: 13%;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:white;
+    transition: .3s;
+}
+
+.logo{
+    filter: drop-shadow(10px 10px 10px rgb(166, 143, 16));
 }
