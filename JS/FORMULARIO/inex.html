@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="principal">
+        Nombre: <input type="text" id="Nombre"> 
+        Apellido: <input type="text" id="Apellido">
+        Email: <input type="email" id="Email">
+        <div>
+            Indique su genero: <br>
+            <input type="radio"  name="Indique su genero" value="Hombre"> Hombre
+            <input type="radio"  name="Indique su genero" value="Mujer"> Mujer
+            <br><input type="radio"  name="Indique su genero" value="No Binario"> No Binario
+            <input type="radio"  name="Indique su genero" value="Prefiero No Decirlo"> Prefiero No Decirlo
+        </div>
+            <div>
+            <label for="edades">Eleji tu rango de edad:</label> 
+                <select name="Edades" id="Edades"> 
+                    <option value="10-16">0-16</option> 
+                    <option value="18-25">18-25</option> 
+                    <option value="25-45">25-45</option> 
+                    <option value="45-65">45-65</option>
+                    <option value="+65">+65</option>  
+                </select>
+            </div>
+        Sos Argentino? <input type="checkbox" name="argentino" id="argentino"> <br>
+        <input type="submit" value="Enviar" id="submit" onclick="obtenerValor();">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
