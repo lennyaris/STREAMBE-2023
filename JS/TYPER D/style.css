@@ -1,0 +1,61 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-image: url('inicio.gif');
+    background-size: cover;
+    background-repeat:repeat-y;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #f3cc4c;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  
+  #text {
+    height: 40px;
+    width: 400px;
+    background-color: #f3cc4c;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+
+
+  #end {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('fin.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #final {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #1480c6;
+    text-align: center;
+    width: 300px;
+    font-size: 40px;
+  }
+
+  #reiniciar {
+    height: 40px;
+    width: 300px;
+    background-color: #81b7d6;
+    border-radius: 10px;
+    font-size: 25px;
+  }

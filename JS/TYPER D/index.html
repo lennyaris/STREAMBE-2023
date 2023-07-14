@@ -6,30 +6,38 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>CupHead Typer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet"> 
 </head>
 
 
-<body>
+<body class="background-container">
   <div class="container">
     <div class="main">
-      <h2>⌨️ TYPER 3000 ⌨️</h2>
+      <h2>⌨️ CUPHEAD TYPER ⌨️</h2>
       <p>Escribí la siguiente palabra:</p>
 
 
       <h1 id="randomWord"></h1>
 
 
-      <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." />
+      <input type="text" id="text" autocomplete="off" placeholder="Escribi aca..." />
 
 
-      <p class="time-container">Tiempo restante: <span id="timeSpan">10s</span></p>
+      <p class="time-container">Tiempo restante: <span id="timeSpan"></span></p>
 
 
       <p class="score-container">Score: <span id="score">0</span></p>
     </div>
-    <div id="end-game-container" class="end-game-container"></div>
+  </div>
+  <div id="end">
+    <div id="final">
+      <p >Tu score final fue: <span id="result"></span></p>
+      <input type="button" id="reiniciar" value="Reiniciar" onclick="reiniciarPagina()"/>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
